@@ -7,23 +7,23 @@ namespace SOLID_Labb
     class Hedgehog : Animal
     {
         public Hedgehog(string color): base(color)
-        {
+            {
             
-        }
+            }
 
         public override void Eat()
-        {
-            Console.WriteLine("Hedgehog is squeeking!");
-        }
+            {
+                Console.WriteLine("Hedgehog is squeeking!");
+            }
 
         public override void Sleep()
-        {
-            Console.WriteLine("Hedgehog is napping!");
-        }
+            {
+                Console.WriteLine("Hedgehog is napping!");
+            }
 
         public override void Speak()
-        {
-            Console.WriteLine("Hedgehog is omnomnoming!");
-        }
+            {
+                Console.WriteLine("Hedgehog is omnomnoming!");
+            }
     }
 }
